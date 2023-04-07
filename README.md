@@ -5,12 +5,12 @@
 ---
 
 ### Steps
-1. Creating `JSON` files per collection which contains all your records
+1. Create `JSON` files per collection which contains all your records
 2. Create a `.sh` file with an arbitary name
 3. Write the `mongoimport` query for all collections using the JSON files
    - The number of `mongoimport` commands in this file depends upon the total number of collections
 4. Execute `sh <file-name>.sh` in the terminal to import all master records 
-   
+
 ---
 
 ### Demo
