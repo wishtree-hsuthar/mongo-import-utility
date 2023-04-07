@@ -1,14 +1,22 @@
 # MongoDB Import 
 
-**Follow below steps to import master data into the MongoDB using a single command.*
+**Follow below given steps to import master data into the MongoDB using a single command.*
 
 ---
 
 ### Steps
 1. Creating `JSON` files per collection which contains all your records
 2. Create a `.sh` file with an arbitary name
-3. Execute `sh <file-name.sh` in the terminal to import all master records 
+3. Write the `mongoimport` query for all collections using the JSON files
    - The number of `mongoimport` commands in this file depends upon the total number of collections
+4. Execute `sh <file-name>.sh` in the terminal to import all master records 
+   
+---
+
+### Demo
+1. Clone this repository
+2. Open the terminal in the cloned directory
+3. Execute `sh import_masters.json`
 
 ---
 
